@@ -1,0 +1,32 @@
+img{
+    object-fit: 100;
+    height: 60vh;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    vertical-align: middle;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    top:50%;
+    transform:translateY(3%);
+   transition: 600ms all ease-in-out;
+  }
+  p
+{
+  text-align: center;
+  font-style: normal;
+  font-display: initial;
+  font: bold;
+}
+#p1
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#p2
+{
+    font-weight: bold;
+    font-style: italic;
+}

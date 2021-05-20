@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar>
+   <ion-title slot="start">Home</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="arrow()" color="primary" fill="outline">Login
+      </ion-button>
+        </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<style>
+  a
+  {
+   color: white;
+   text-decoration: none;
+  }
+  table{
+    border: 0;
+    width: 100%;
+    background-color: #3171e0;
+    height: 8%;
+  }
+  #a1
+  {
+    text-align: right;
+    width: 90%;
+  }
+  #a2
+   {
+    text-align: center;
+    width: 48%;
+  }
+  #pa
+  {
+    background-color: #3171e0;
+    
+    min-height: 6em;
+  height: auto;
+  text-align: center;
+  top: auto;
+  }
+</style>
+<ion-content padding>
+  <table>
+    <tr>
+    <td id="a1" > <a routerLink= '/home'>Home</a> </td>
+    <td id="a2"> <a  routerLink= '/aboutus'>About Us</a></td>
+    </tr>
+  </table>
+  <ion-slides [options]="options">
+    <ion-slide>
+      <img width="180" height="80" src= "/assets/digital-revolution.jpg" class= "">
+    </ion-slide>
+    <ion-slide>
+      <img width="180" height="80" src= "/assets/free-technology-images.jpg" class= "">
+    </ion-slide>
+    <ion-slide>
+      <img width="180" height="80" src= "/assets/s823686896.png" class= "">
+    </ion-slide>
+    <ion-slide>
+      <img width="180" height="80" src= "/assets/connected-technology.jpg" class= "">
+    </ion-slide>
+  </ion-slides>
+  <p font-weight="bold">   We are Techsol!<br>
+    <br>We believe in constantly adding value to our partners with High quality coding technique and developing technology!   
+  </p>
+  <ion-footer>
+    <p id="pa" >
+      <br>
+      Contact Us:<br>
+      support@techsol.in<br><br>
+      Techsol © Copyright 2021. All Rights Reserved.
+    </p>
+  </ion-footer>
+</ion-content>

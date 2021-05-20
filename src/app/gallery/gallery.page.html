@@ -1,0 +1,145 @@
+<ion-header>
+  <ion-toolbar>
+
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title slot="start">Gallery</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="arrow()" color="primary" fill="outline">Logout
+      </ion-button>
+        </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<style>
+  a
+  {
+   color: white;
+   text-decoration: none;
+  }
+  table{
+    border: 0;
+    width: 100%;
+    background-color: #3171e0;
+    height: 8%;
+  }
+  #a1
+  {
+    text-align: right;
+    width: 90%;
+  }
+  #a2
+   {
+    text-align: center;
+    width: 48%;
+  }
+  #pa
+  {
+    background-color: #3171e0;
+    
+    min-height: 6em;
+  height: auto;
+  text-align: center;
+  top: auto;
+  }
+</style>
+<ion-content padding>
+  <table>
+    <tr>
+    <td id="a1"> <a routerLink= '/hom'>Home</a> </td>
+    <td id="a2"> <a  routerLink= '/about'>About Us</a></td>
+    <td id="a2"> <a  routerLink= '/gallery'>Gallery</a></td>
+    </tr>
+  </table>
+<ion-grid>
+  <ion-row>
+    <ion-col>     
+      <img src="assets/cod1.jpg" class="">
+    </ion-col>
+    <ion-col> 
+    <img src="assets/cod3.jpg" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/cod4.jpeg" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/cod6.jpg" class="">
+      
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>     
+      <img src="assets/shutterstock_88454563.jpg" class="">
+    </ion-col>
+    <ion-col> 
+    <img src="assets/hg1.png" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/cod8.jfif" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/spik.jfif" class="">
+      
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>     
+      <img src="assets/cod1.jpg" class="">
+    </ion-col>
+    <ion-col> 
+    <img src="assets/cod3.jpg" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/cod4.jpeg" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/cod6.jpg" class="">
+      
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>     
+      <img src="assets/shutterstock_88454563.jpg" class="">
+    </ion-col>
+    <ion-col> 
+    <img src="assets/hg1.png" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/cod8.jfif" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/spik.jfif" class="">
+      
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>     
+      <img src="assets/manager.jpg" class="">
+    </ion-col>
+    <ion-col> 
+    <img src="assets/hg12.jpg" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/y1.png" class="">
+    </ion-col>
+    <ion-col>
+      <img src="assets/gun.jpg" class="">
+      
+    </ion-col>
+  </ion-row>
+
+</ion-grid>
+
+  <ion-footer>
+    <p id="pa" >
+      <br>
+      Contact Us:<br>
+      support@techsol.in<br><br>
+      Techsol © Copyright 2021. All Rights Reserved.
+    </p>
+  </ion-footer>
+</ion-content>
+
